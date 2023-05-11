@@ -9,11 +9,20 @@ body {
 
 .section {
   max-width: 1200px;
-  margin: 0 auto;
+  padding: 100px 0px;
 }
 
 .grid {
   display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+  padding: 100px;
+}
+
+.grid-3-col {
   grid-template-columns: 1.5fr 2fr 1.5fr;
 }
 
@@ -46,6 +55,7 @@ header h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
+  letter-spacing: 3px;
   margin: 0;
 }
 
@@ -62,6 +72,25 @@ header a {
   padding: 16px 32px;
   display: inline-block;
   border-radius: 4px;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5x;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
 }
 
 footer {
@@ -81,8 +110,8 @@ footer h4 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  margin-right: 20px;
 }
+
 footer p {
   font-weight: 400;
   font-size: 14px;
@@ -119,5 +148,14 @@ footer ul {
 
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
