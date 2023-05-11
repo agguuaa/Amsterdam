@@ -23,7 +23,7 @@ section.secondary {
 
 .img-responsive {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 750px;
 }
 
 .grid {
@@ -61,7 +61,7 @@ section.secondary {
 }
 
 .cafe {
-  width: auto;
+  width: 300px;
   height: 200px;
 }
 
@@ -168,6 +168,7 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+  padding: 0;
 }
 
 footer {
