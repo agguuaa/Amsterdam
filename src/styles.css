@@ -29,12 +29,13 @@ section.secondary {
 
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 50px;
 }
 
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
   padding: 20px;
+  margin-top: 50px;
 }
 
 .grid-2-col-2 {
