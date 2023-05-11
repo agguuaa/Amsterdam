@@ -12,6 +12,10 @@ body {
   padding: 100px 0px;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
