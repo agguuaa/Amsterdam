@@ -9,7 +9,7 @@ body {
 
 section {
   max-width: 100%;
-  padding: 100px;
+  padding: 80px;
   margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ section.secondary {
 .img-responsive {
   max-width: 100%;
   max-height: 750px;
+  display: block;
 }
 
 .grid {
@@ -77,6 +78,7 @@ section.secondary {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+  border-radius: 8px;
 }
 
 header {
@@ -135,6 +137,7 @@ main h2 {
   opacity: 0.3;
   text-transform: uppercase;
   margin: 0;
+  padding: 0;
 }
 
 main h3 {
@@ -143,6 +146,7 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+  padding-bottom: 15px;
 }
 
 main h4 {
