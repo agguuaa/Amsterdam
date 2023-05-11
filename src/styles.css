@@ -7,13 +7,23 @@ body {
   margin: 0 auto;
 }
 
-.section {
-  max-width: 1200px;
-  padding: 100px 0px;
+section {
+  max-width: 100%;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .img-responsive {
   max-width: 100%;
+  max-height: 100%;
 }
 
 .grid {
@@ -27,7 +37,46 @@ body {
 }
 
 .grid-3-col {
-  grid-template-columns: 1.5fr 2fr 1.5fr;
+  grid-template-columns: 1.3fr 2fr 2fr;
+}
+
+.grid-3-col-equal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: white;
+  margin-top: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.cafe {
+  width: auto;
+  height: 200px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 
 header {
@@ -37,7 +86,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 260px 0;
+  padding: 200px 0;
 }
 
 header h1 {
@@ -67,7 +116,6 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -97,6 +145,31 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -107,7 +180,7 @@ footer {
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 100px;
+  padding: 30px 30px;
 }
 
 footer h4 {
@@ -120,7 +193,7 @@ footer p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  margin-right: 20px;
+  padding: 0;
 }
 footer a {
   font-weight: 400;
