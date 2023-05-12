@@ -38,9 +38,9 @@ section.instagram {
 
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
+  padding: 100px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .grid-2-col-2 {
