@@ -17,6 +17,10 @@ section.secondary {
   background: #f8f8f8;
 }
 
+section.instagram {
+  padding: 20;
+}
+
 .text-center {
   text-align: center;
 }
@@ -51,7 +55,6 @@ section.secondary {
 .grid-3-col-equal {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: min-content;
   grid-gap: 20px;
 }
 
@@ -239,7 +242,7 @@ footer ul {
   padding: 0;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   header {
     padding: 60px 0;
   }
