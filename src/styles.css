@@ -15,11 +15,13 @@ section {
 
 section.secondary {
   background: #f8f8f8;
-  padding-top: 20px;
+  padding: 40px;
+  margin: 0px;
 }
 
 section.instagram {
-  padding-top: 20px;
+  padding: 50px;
+  margin: 30px;
 }
 
 .text-center {
